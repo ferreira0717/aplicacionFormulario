@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_margenDerecha">10dp</dimen>
+    <dimen name="tv_margenIzquierda">10dp</dimen>
+    <dimen name="margenIzquierdaCard">6dp</dimen>
+    <dimen name="margenDerechaCard">6dp</dimen>
+    <dimen name="margenCard">6dp</dimen>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="tamañoTituloConfirmarDatos">22sp</dimen>
+    <dimen name="tamañoImagenWidthConfirmarDatos">120dp</dimen>
+    <dimen name="tamañoImagenHeightConfirmarDatos">120dp</dimen>
+    <dimen name="tamañoImagenLlamadaWidthConfirmarDatos">120dp</dimen>
+    <dimen name="tamañoImagenLlamadaHeightConfirmarDatos">64dp</dimen>
+    <dimen name="tamañoTituloTelConfirmarDatos">16sp</dimen>
+    <dimen name="tamañoTelConfirmarDatos">14sp</dimen>
+    <dimen name="corner_radius_cvContactos">4sp</dimen>
+    <dimen name="size_nombre_cardView">20sp</dimen>
+    <dimen name="size_tel_CV">14sp</dimen>
+</resources>

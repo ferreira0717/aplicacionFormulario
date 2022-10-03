@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margenCard"
+        app:cardCornerRadius="@dimen/cardCornerRadius">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tliNombreFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tv_margenIzquierda"
+                android:layout_marginLeft="@dimen/tv_margenIzquierda"
+                android:layout_marginEnd="@dimen/tv_margenDerecha"
+                android:layout_marginRight="@dimen/tv_margenDerecha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:startIconDrawable="@drawable/icon_persona"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/etNombreFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints="0"
+                    android:ems="10"
+                    android:hint="@string/hint_nombreFormulario"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tliFechaNacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tv_margenIzquierda"
+                android:layout_marginLeft="@dimen/tv_margenIzquierda"
+                android:layout_marginEnd="@dimen/tv_margenDerecha"
+                android:layout_marginRight="@dimen/tv_margenDerecha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tliNombreFormulario"
+                app:startIconDrawable="@drawable/icon_calendario"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/etFechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints="0"
+                    android:ems="10"
+                    android:hint="@string/hint_fechaNacimiento"
+                    android:inputType="datetime" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tliTelefonoFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tv_margenIzquierda"
+                android:layout_marginLeft="@dimen/tv_margenIzquierda"
+                android:layout_marginEnd="@dimen/tv_margenDerecha"
+                android:layout_marginRight="@dimen/tv_margenDerecha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tliFechaNacimiento"
+                app:startIconDrawable="@drawable/icon_telefono"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/etTelefonoFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints="0"
+                    android:ems="10"
+                    android:hint="@string/hint_telefonoFormulario"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tliEmailFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tv_margenIzquierda"
+                android:layout_marginLeft="@dimen/tv_margenIzquierda"
+                android:layout_marginEnd="@dimen/tv_margenDerecha"
+                android:layout_marginRight="@dimen/tv_margenDerecha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tliTelefonoFormulario"
+                app:startIconDrawable="@drawable/icon_email"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/etEmailFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints="0"
+                    android:ems="10"
+                    android:hint="@string/hint_emailFormulario"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tliDescripcionFormulario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/tv_margenIzquierda"
+                android:layout_marginLeft="@dimen/tv_margenIzquierda"
+                android:layout_marginEnd="@dimen/tv_margenDerecha"
+                android:layout_marginRight="@dimen/tv_margenDerecha"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tliEmailFormulario"
+                app:startIconDrawable="@drawable/icon_descripcion"
+                tools:ignore="MissingConstraints">
+
+                <EditText
+                    android:id="@+id/etDescripcionFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="326dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:autofillHints="0"
+                    android:ems="10"
+                    android:hint="@string/hint_descripcionFormulario"
+                    android:inputType="textMultiLine" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnSiguiente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/azul"
+                android:text="@string/txt_btnSiguiente"
+                android:textColor="@color/blanco"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tliDescripcionFormulario"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

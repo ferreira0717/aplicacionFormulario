@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="hint_nombreFormulario">Nombre completo</string>
+    <string name="hint_fechaNacimiento">Fecha de nacimiento</string>
+    <string name="hint_telefonoFormulario">Télefono</string>
+    <string name="hint_emailFormulario">Email</string>
+    <string name="hint_descripcionFormulario">Descripción contacto</string>
+    <string name="txt_btnSiguiente">Siguiente</string>
+    <string name="txt_btnSnackbar">OK</string>
+    <string name="nuevoContacto">Nuevo contacto</string>
+    <string name="nombreInvalido">Ingrese el nombre</string>
+    <string name="fechaInvalida">Ingrese la fecha de nacimiento</string>
+    <string name="telefonoInvalido">Ingrese el número telefonico</string>
+    <string name="emailInvalido">El email esta vacío o no tiene el formato adecuado</string>
+    <string name="descripcionInvalida">Ingrese una descripción</string>
+    <string name="contacto">Contacto</string>
+    <string name="Edit">Edit</string>
+    <string name="alertaPermisosLlamadas">Para poder usar la app debes conceder los permisos de llamada</string>
+    <string name="menuTitleConfirmarDatos">Editar contacto</string>
+    <string name="tituloEditarContacto">INFORMACIÓN</string>
+    <string name="txt_btnEditarDatos">Editar Datos</string>
+    <string name="txt_telefonoCD">Tel:</string>
+    <string name="txt_nombreCD">Nombre:</string>
+    <string name="txt_emailCD">Correo:</string>
+    <string name="txt_fechaCD">Fecha de nacimiento:</string>
+    <string name="txt_descripcionCD">Descripción:</string>
+    <string name="problemasObjetoContacto">Problemas con el objeto contacto, comuniquese con el administrador</string>
+    <string name="exito">Éxito</string>
+    <string name="error">Error</string>
+</resources>
